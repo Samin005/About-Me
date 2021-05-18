@@ -1,0 +1,10 @@
+<div class="my-4">
+  <h3>Work Experience:</h3>
+  <div class="ps-3 row w-100 my-1" *ngFor="let w of workExperience">
+    <div class="col-3" [innerHTML]="w.timeline"></div>
+    <div class="col-9">
+      <div [innerHTML]="w.title"></div>
+      <div [innerHTML]="w.details"></div>
+    </div>
+  </div>
+</div>

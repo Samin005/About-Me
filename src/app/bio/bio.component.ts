@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-bio',
@@ -12,7 +12,9 @@ export class BioComponent implements OnInit {
     ' I usually teach courses related Artificial Intelligence and Computer Science in my university.' +
     ' Previously I worked as a Full-stack Software Engineer in one of the largest private groups in Bangladesh.' +
     ' AI and Software Engineering are my primary interests, and I look forward to sharing my ideas.';
-  constructor() { }
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

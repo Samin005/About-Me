@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-skills',
@@ -24,7 +24,9 @@ export class SkillsComponent implements OnInit {
     '● Firebase\n' +
     '● Git';
   skills = this.skillsString.split('\n');
-  constructor() { }
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
