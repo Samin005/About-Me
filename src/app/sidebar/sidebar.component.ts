@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, HostListener, OnInit} from '@angular/core';
 
 declare var $;
 
@@ -10,24 +10,14 @@ declare var $;
 export class SidebarComponent implements OnInit {
 
   constructor() {
-    $('#sidebarToggleTop').on('click', () => {
-      $('body').toggleClass('sidebar-toggled');
-      $('.sidebar').toggleClass('toggled');
-      $('#fixedSidebar').toggleClass('position-sticky');
-      if ($('.sidebar').hasClass('toggled')) {
-        $('.sidebar .collapse').collapse('hide');
-      }
-    });
-    $('#sidebarToggle').on('click', () => {
-      $('body').toggleClass('sidebar-toggled');
-      $('.sidebar').toggleClass('toggled');
-      if ($('.sidebar').hasClass('toggled')) {
-        $('.sidebar .collapse').collapse('hide');
-      }
-    });
   }
 
   ngOnInit(): void {
+  }
+
+  @HostListener('window:scroll', ['$event'])
+  checkOffsetTop(): void {
+    console.log(window.pageYOffset);
   }
 
   navigateToTop(): void {
@@ -37,16 +27,11 @@ export class SidebarComponent implements OnInit {
     });
   }
 
-  navigateToColors(): void {
+  navigateToComponent(componentID): void {
+    const component = $('#' + componentID);
+    console.log('Top Offset: ' + component.offset().top);
     window.scroll({
-      top: $('#colorsContainer').offset().top,
-      behavior: 'smooth'
-    });
-  }
-
-  scrollDown(): void {
-    window.scroll({
-      top: 500,
+      top: component.offset().top,
       behavior: 'smooth'
     });
   }

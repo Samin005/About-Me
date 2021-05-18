@@ -6,7 +6,7 @@
     <div class="position-fixed" id="fixedSidebar">
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center"
-         href="">
+         routerLink="/"  (click)="navigateToTop()">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="far fa-user"></i>
         </div>
@@ -18,23 +18,22 @@
 
       <!-- Nav Item - Dashboard -->
       <div class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-        <a class="nav-link" routerLink="/">
+        <a class="nav-link" routerLink="/"  (click)="navigateToComponent('bio')">
           <i class="fas fa-pencil-alt"></i>
           <span>Bio</span></a>
       </div>
 
       <!-- Divider -->
-      <hr class="sidebar-divider">
+<!--      <hr class="sidebar-divider">-->
 
       <!-- Heading -->
-      <div class="sidebar-heading">
-        Interface
-      </div>
+<!--      <div class="sidebar-heading">-->
+<!--        Details-->
+<!--      </div>-->
 
       <!-- Nav Item  -->
-      <div class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-           aria-expanded="true" aria-controls="collapseTwo" (click)="showComponentsCollapseItemsOnSmallScreen()">
+      <div class="nav-item"  routerLinkActive="active">
+        <a class="nav-link" (click)="navigateToComponent('education')">
           <i class="fas fa-graduation-cap"></i>
           <span>Education</span>
         </a>
@@ -42,7 +41,7 @@
 
       <!-- Nav Item  -->
       <div class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="inventory-management">
+        <a class="nav-link" routerLink="skills" (click)="navigateToComponent('skills')">
           <i class="fas fa-stream"></i>
           <span>Skills</span></a>
       </div>
