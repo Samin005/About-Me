@@ -7,6 +7,7 @@ import { TsParticlesComponent } from './ts-particles/ts-particles.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { BioComponent } from './bio/bio.component';
 import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EducationComponent } from './education/education.component';
     TsParticlesComponent,
     SidebarComponent,
     BioComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
