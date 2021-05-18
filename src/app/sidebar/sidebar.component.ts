@@ -9,6 +9,8 @@ declare var $;
 })
 export class SidebarComponent implements OnInit {
 
+  activated = 'bio';
+
   constructor() {
   }
 
@@ -17,7 +19,21 @@ export class SidebarComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event'])
   checkOffsetTop(): void {
-    console.log(window.pageYOffset);
+    const bioYOffset = $('#bio').offset().top;
+    const educationYOffset = $('#education').offset().top;
+    const skillsYOffset = $('#skills').offset().top;
+    const workExperienceYOffset = $('#work-experience').offset().top;
+    const majorProjectsYOffset = $('#major-projects').offset().top;
+
+    if (window.pageYOffset >= bioYOffset && window.pageYOffset < educationYOffset) {
+      this.activated = 'bio';
+    } else if (window.pageYOffset >= educationYOffset && window.pageYOffset < skillsYOffset) {
+      this.activated = 'education';
+    } else if (window.pageYOffset >= skillsYOffset && window.pageYOffset < workExperienceYOffset) {
+      this.activated = 'skills';
+    } else if (window.pageYOffset >= workExperienceYOffset && window.pageYOffset < majorProjectsYOffset) {
+      this.activated = 'work-experience';
+    }
   }
 
   navigateToTop(): void {
@@ -29,27 +45,9 @@ export class SidebarComponent implements OnInit {
 
   navigateToComponent(componentID): void {
     const component = $('#' + componentID);
-    console.log('Top Offset: ' + component.offset().top);
     window.scroll({
       top: component.offset().top,
       behavior: 'smooth'
     });
   }
-
-  showUtilitiesCollapseItemsOnSmallScreen(): void {
-    if ($('#collapseUtilities').attr('class') === 'collapse') {
-      $('#fixedSidebar').css('overflow-y', 'visible');
-    } else {
-      $('#fixedSidebar').css('overflow-y', 'scroll');
-    }
-  }
-
-  showComponentsCollapseItemsOnSmallScreen(): void {
-    if ($('#collapseTwo').attr('class') === 'collapse') {
-      $('#fixedSidebar').css('overflow-y', 'visible');
-    } else {
-      $('#fixedSidebar').css('overflow-y', 'scroll');
-    }
-  }
-
 }

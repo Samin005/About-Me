@@ -17,7 +17,7 @@
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->
-      <div class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+      <div class="nav-item" [ngClass]="{'active': activated === 'bio'}">
         <a class="nav-link" routerLink="/"  (click)="navigateToComponent('bio')">
           <i class="fas fa-pencil-alt"></i>
           <span>Bio</span></a>
@@ -32,7 +32,7 @@
 <!--      </div>-->
 
       <!-- Nav Item  -->
-      <div class="nav-item"  routerLinkActive="active">
+      <div class="nav-item" [ngClass]="{'active': activated === 'education'}">
         <a class="nav-link" (click)="navigateToComponent('education')">
           <i class="fas fa-graduation-cap"></i>
           <span>Education</span>
@@ -40,43 +40,50 @@
       </div>
 
       <!-- Nav Item  -->
-      <div class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="skills" (click)="navigateToComponent('skills')">
+      <div class="nav-item" [ngClass]="{'active': activated === 'skills'}">
+        <a class="nav-link" (click)="navigateToComponent('skills')">
           <i class="fas fa-stream"></i>
           <span>Skills</span></a>
       </div>
 
       <!-- Nav Item  -->
-      <div class="nav-item" routerLinkActive="active">
+      <div class="nav-item" [ngClass]="{'active': activated === 'work-experience'}">
         <a class="nav-link" (click)="navigateToComponent('work-experience')">
           <i class="fas fa-laptop-code"></i>
           <span>Work Experience</span></a>
       </div>
 
       <!-- Nav Item  -->
-      <div class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="inventory-management">
+      <div class="nav-item" [ngClass]="{'active': activated === 'major-projects'}">
+        <a class="nav-link" (click)="navigateToComponent('major-projects')">
           <i class="fas fa-project-diagram"></i>
           <span>Major Projects</span></a>
       </div>
 
       <!-- Nav Item  -->
-      <div class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="inventory-management">
+      <div class="nav-item" [ngClass]="{'active': activated === 'awards'}">
+        <a class="nav-link" (click)="navigateToComponent('awards')">
           <i class="fas fa-trophy"></i>
-          <span>Awards & Participations</span></a>
+          <span>Awards & Participation</span></a>
       </div>
 
       <!-- Nav Item  -->
-      <div class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="inventory-management">
+      <div class="nav-item" [ngClass]="{'active': activated === 'certifications'}">
+        <a class="nav-link" (click)="navigateToComponent('certifications')">
           <i class="fas fa-award"></i>
           <span>Certifications</span></a>
       </div>
 
       <!-- Nav Item  -->
-      <div class="nav-item" routerLinkActive="active">
-        <a class="nav-link" routerLink="inventory-management">
+      <div class="nav-item" [ngClass]="{'active': activated === 'publications'}">
+        <a class="nav-link" (click)="navigateToComponent('publications')">
+          <i class="fas fa-book"></i>
+          <span>Publications</span></a>
+      </div>
+
+      <!-- Nav Item  -->
+      <div class="nav-item" [ngClass]="{'active': activated === 'references'}">
+        <a class="nav-link" (click)="navigateToComponent('references')">
           <i class="far fa-list-alt"></i>
           <span>References</span></a>
       </div>

@@ -268,6 +268,7 @@
   overflow-y: scroll;
   height: 100vh;
 }
+
 #fixedSidebar::-webkit-scrollbar {
   width: 0;
   background: transparent;

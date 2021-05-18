@@ -1,0 +1,14 @@
+<div class="my-4">
+  <h3>Major Projects:</h3>
+  <div class="ps-3 row w-100 my-3" *ngFor="let m of majorProjects">
+    <div class="col-12">
+      <h5 [innerHTML]="m.title"></h5>
+      <div [innerHTML]="m.details" class="ps-1"></div>
+      <div *ngIf="m.showViewButton" class="mt-2 float-end">
+        <a href="{{m.url}}" target="_blank">
+          <button class="btn btn-light">View Project</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
