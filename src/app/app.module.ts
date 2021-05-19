@@ -10,6 +10,10 @@ import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { MajorProjectsComponent } from './major-projects/major-projects.component';
+import { AwardsComponent } from './awards/awards.component';
+import { CertificationsComponent } from './certifications/certifications.component';
+import { PublicationsComponent } from './publications/publications.component';
+import { ReferencesComponent } from './references/references.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { MajorProjectsComponent } from './major-projects/major-projects.componen
     EducationComponent,
     SkillsComponent,
     WorkExperienceComponent,
-    MajorProjectsComponent
+    MajorProjectsComponent,
+    AwardsComponent,
+    CertificationsComponent,
+    PublicationsComponent,
+    ReferencesComponent
   ],
   imports: [
     BrowserModule,

@@ -24,8 +24,12 @@ export class SidebarComponent implements OnInit {
     const skillsYOffset = $('#skills').offset().top;
     const workExperienceYOffset = $('#work-experience').offset().top;
     const majorProjectsYOffset = $('#major-projects').offset().top;
+    const awardsYOffset = $('#awards').offset().top;
+    const certificationsYOffset = $('#certifications').offset().top;
+    const publicationsYOffset = $('#publications').offset().top;
+    const referencesYOffset = $('#references').offset().top;
 
-    if (window.pageYOffset >= bioYOffset && window.pageYOffset < educationYOffset) {
+    if (window.pageYOffset < educationYOffset) {
       this.activated = 'bio';
     } else if (window.pageYOffset >= educationYOffset && window.pageYOffset < skillsYOffset) {
       this.activated = 'education';
@@ -33,6 +37,16 @@ export class SidebarComponent implements OnInit {
       this.activated = 'skills';
     } else if (window.pageYOffset >= workExperienceYOffset && window.pageYOffset < majorProjectsYOffset) {
       this.activated = 'work-experience';
+    } else if (window.pageYOffset >= majorProjectsYOffset && window.pageYOffset < awardsYOffset) {
+      this.activated = 'major-projects';
+    } else if (window.pageYOffset >= awardsYOffset && window.pageYOffset < certificationsYOffset) {
+      this.activated = 'awards';
+    } else if (window.pageYOffset >= certificationsYOffset && window.pageYOffset < publicationsYOffset) {
+      this.activated = 'certifications';
+    } else if (window.pageYOffset >= publicationsYOffset && window.pageYOffset < referencesYOffset) {
+      this.activated = 'publications';
+    } else {
+      this.activated = 'references';
     }
   }
 
