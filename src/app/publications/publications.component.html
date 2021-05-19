@@ -1,1 +1,14 @@
-<p>publications works!</p>
+<div class="my-4">
+  <h3>Publications:</h3>
+  <div class="ps-3 row w-100 my-3" *ngFor="let p of publications">
+    <div class="col-12">
+      <h5 [innerHTML]="p.title"></h5>
+      <div [innerHTML]="p.details"></div>
+      <div *ngIf="p.showViewButton" class="mt-2 float-end">
+        <a href="{{p.url}}" target="_blank">
+          <button class="btn btn-light">View Publication</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -39,7 +39,6 @@ export class WorkExperienceComponent implements OnInit {
     for (const w of this.workExperience) {
       w.details = w.details.split('\n').join('<br>');
     }
-    console.log(this.workExperience);
   }
 
   ngOnInit(): void {
