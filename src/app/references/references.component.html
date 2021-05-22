@@ -1,1 +1,23 @@
-<p>references works!</p>
+<div class="my-4">
+  <h3>References:</h3>
+  <div class="card text-white" style="background: transparent;" *ngFor="let r of references; let i = index">
+    <hr *ngIf="i != 0">
+    <div class="row g-0 mt-4">
+      <div class="col-md-4">
+        <img src="{{r.img}}" alt="{{r.name}} img" style="width: 10rem;" class="img-fluid rounded-circle d-block mx-auto">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{r.name}}</h5>
+          <div class="card-text" [innerHTML]="r.info"></div>
+          <div *ngIf="r.showViewButton" class="mt-2 float-end">
+            <a href="{{r.url}}" target="_blank">
+              <button class="btn btn-light">View Website</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
