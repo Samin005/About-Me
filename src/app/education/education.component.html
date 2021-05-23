@@ -1,8 +1,15 @@
 <div class="my-4">
   <h3>Education:</h3>
-  <div class="ps-3 row w-100 my-1" *ngFor="let e of education">
+  <div class="ps-3 row w-100 my-1" *ngFor="let e of education; let i = index">
     <div class="col-3" [innerHTML]="e.timeline"></div>
-    <div class="col-6" [innerHTML]="e.details"></div>
-    <div class="col-3" [innerHTML]="e.result"></div>
+    <div class="col-6">
+      <div><b>{{e.degree}}</b></div>
+      <div><em>{{e.institution}}</em></div>
+      <div  [innerHTML]="e.details"></div>
+    </div>
+    <div class="col-3 text-center">
+      <div class="fs-5">{{e.result}}</div>
+      <div><small>{{e.scale}}</small></div>
+    </div>
   </div>
 </div>

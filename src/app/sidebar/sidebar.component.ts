@@ -19,7 +19,7 @@ export class SidebarComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event'])
   checkOffsetTop(): void {
-    const bioYOffset = $('#bio').offset().top;
+    // const bioYOffset = $('#bio').offset().top;
     const educationYOffset = $('#education').offset().top;
     const skillsYOffset = $('#skills').offset().top;
     const workExperienceYOffset = $('#work-experience').offset().top;
