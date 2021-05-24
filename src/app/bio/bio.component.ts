@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import Typed from 'typed.js';
 
+declare var $: any;
+
 @Component({
   selector: 'app-bio',
   templateUrl: './bio.component.html',
@@ -22,10 +24,12 @@ export class BioComponent implements OnInit {
     cursorChar: '_',
     loop: true
   };
+
   constructor() {
   }
 
   ngOnInit(): void {
+    $('[data-toggle="tooltip"]').tooltip();
     const typedBio = new Typed('#typed-bio', this.typedOptions);
     typedBio.start();
   }
