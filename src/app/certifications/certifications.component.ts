@@ -14,6 +14,54 @@ export class CertificationsComponent implements OnInit {
       showViewButton: true,
       url: 'https://www.kaggle.com/learn/certification/saminazhan/intro-to-machine-learning'
     },
+    {
+      title: 'Mozilla Certified Boot Camp (Prime Minister\'s Office, Bangladesh)',
+      img: 'assets/img/certifications/mozilla.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/1dREVj_mKlc-Y_lzptCpeHCvbvXS1js7V/view?usp=sharing'
+    },
+    {
+      title: 'ICT Certified Nation Hackathon, Bangladesh',
+      img: 'assets/img/certifications/national-hackathon.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/10IeitZ5xbW7FLpgP-lOHCbThnHD3MGD7/view?usp=sharing'
+    },
+    {
+      title: 'EATL-Prothom Alo Apps Contest (Top 15 out of 650 teams)',
+      img: 'assets/img/certifications/eatl-apps.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/1TKtK0CS9xkAcGkxwDS14-T6jk0hr2Qw6/view?usp=sharing'
+    },
+    {
+      title: 'Tech for Peace Certified Hack Day',
+      img: 'assets/img/certifications/tech-for-peace.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/1FffxJ5i1zUzBYv0yIbrdqYosuyKT130y/view?usp=sharing'
+    },
+    {
+      title: 'BINUS University Certified Asian English Olympics',
+      img: 'assets/img/certifications/aeo-english-olympics.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/1YVfME558AsxbM6jZ1tUg_34QgzVmLSVw/view?usp=sharing'
+    },
+    {
+      title: 'ULAB Certified Inter-university Cultural Competition',
+      img: 'assets/img/certifications/ulab-stage-drama.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/1WpGD1TXWT0qGUbLxCMUqpG0SXEZEWpFm/view?usp=sharing'
+    },
+    {
+      title: 'BRAC University Certified English Singing',
+      img: 'assets/img/certifications/brac-english-singing.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/1dOv1z-V8gCIjQcdBupeRL2KovEWF5A1X/view?usp=sharing'
+    },
+    {
+      title: 'British Council Certified General English Speaker (Independent User)',
+      img: 'assets/img/certifications/british-council.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/16FMtxaSUalEK24Am1jLBp2NY_DYr26O-/view?usp=sharing'
+    },
     // {title: '', img: '', showViewButton: false, url: ''}
   ];
 
