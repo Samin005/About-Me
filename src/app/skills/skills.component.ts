@@ -12,21 +12,25 @@ export class SkillsComponent implements OnInit {
     '● ORM, OOP\n' +
     '● PyQt5\n' +
     '● NumPy, Pandas\n' +
+    '● scikit-learn, joblib\n' +
     '● Angular 2+\n' +
     '● Typescript, RxJS\n' +
     '● Java, JPA\n' +
     '● Spring Boot\n' +
-    '● scikit-learn, joblib\n' +
+    '● seaborn\n' +
+    '● Matplotlib\n' +
     '● REST\n' +
     '● HTML, CSS\n' +
-    '● JS, jQuery\n' +
+    '● Javascript\n' +
+    '● jQuery\n' +
+    '● Bootstrap\n' +
     '● JWT\n' +
-    '● seaborn\n' +
     '● Oracle, MySQL\n' +
     '● PostgreSQL\n' +
     '● Firebase\n' +
-    '● Git\n' +
-    '● Matplotlib';
+    '● Raspberry Pi\n' +
+    '● Arduino\n' +
+    '● Git\n';
   skills = this.skillsString.split('\n');
 
   constructor() {
