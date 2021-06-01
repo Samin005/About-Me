@@ -36,9 +36,15 @@ export class MajorProjectsComponent implements OnInit {
     },
     {
       title: 'Social Account JWT Authentication and Authorization — (Angular, Django)',
-      details: 'An application that implements proper JWT authentication and role-based user management system with customizable permissions and data validation. This Frontend is created using Angular which will connects with a Python Django backend using a REST API and an SQL database.',
+      details: 'An application that implements proper JWT authentication and role-based user management system with customizable permissions and data validation. This Frontend is created using Angular which connects with a Python Django backend using a REST API and an SQL database.',
       showViewButton: true,
       url: 'https://github.com/Samin005/Angular-Django-JWT-Frontend'
+    },
+    {
+      title: 'Car Repair Appointment Service (HTML, CSS, Javascript, PHP)',
+      details: 'A website where the user can create an appointment with their desired mechanic with a specific date and car license number based on a predefined schedule. The user can also modify or delete an existing appointment based on their role.',
+      showViewButton: true,
+      url: 'https://github.com/Samin005/Badass-Car-Repair'
     },
     {
       title: 'Admin Panel — (Angular, Cloud Firestore)',
@@ -47,6 +53,12 @@ export class MajorProjectsComponent implements OnInit {
         'and Angular 6 for the front-end.',
       showViewButton: false,
       url: ''
+    },
+    {
+      title: 'Interactive Kids Website (HTML, CSS, Javascript, PHP)',
+      details: 'A website with a very amusing and enjoyable user interface, where kids can play multiple games, watch different cartoons and write their diary online.',
+      showViewButton: true,
+      url: 'https://github.com/Samin005/Interactive-Kids-Website'
     },
     {
       title: 'Excel Calculations and Charts Automation — (Python, openpyxl)',
@@ -58,10 +70,9 @@ export class MajorProjectsComponent implements OnInit {
     },
     {
       title: 'Intruder Detection System — (Python, Raspberry Pi)',
-      details: 'A system that uses a Raspberry Pi with a PIR sensor to detect an intruder and take a\n' +
-        'picture of the intruder using a Pi cam and send the image via email using smtplib',
-      showViewButton: false,
-      url: ''
+      details: 'A system that uses a Raspberry Pi and a PIR sensor to detect an intruder based in movements. It take a picture of the intruder using a Pi cam and sends it via email in a matter of seconds using smtplib.',
+      showViewButton: true,
+      url: 'https://github.com/Samin005/Intruder-Detection-System-Raspberry-Pi-Project'
     },
     {
       title: 'Music Recommendation System — (Python, Scikit-learn, Pandas, joblib)',
@@ -100,7 +111,14 @@ export class MajorProjectsComponent implements OnInit {
         'and insert into the Oracle database of Jatra Backoffice Software.',
       showViewButton: true,
       url: 'https://github.com/Samin005/MIR_Decoder'
+    },
+    {
+      title: 'Smart Shopping Cart (Java, Arduino)',
+      details: 'Arduino powered shopping cart that enables the user to complete shopping without entering the mall and a given shopping list. It comes with a barcode scanning android app that verifies the items and calculates the prices. It also uses a sonar sensor to detect any obstacles and move past them so that it does not get stuck.',
+      showViewButton: true,
+      url: 'https://github.com/Samin005/Smart-Shopping-Cart-Arduino'
     }
+    // , {title: '', details: '', showViewButton: false, url: ''}
   ];
 
   constructor() {
