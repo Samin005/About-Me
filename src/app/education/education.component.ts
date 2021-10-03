@@ -22,7 +22,7 @@ export class EducationComponent implements OnInit {
       institution: 'BRAC University, Bangladesh',
       details: '(<b>Minor:</b> English)\n' +
         '<span class="text-decoration-underline">Thesis Title:</span> Using Machine Learning for Lie Detection: Classification of Human Visual Morphology',
-      result: 'CGPA: 3.87',
+      result: 'CGPA: 3.87 <div>(WES ICAP course-by-course Evaluated: 3.92)</div>',
       scale: '(out of 4.00)'
     },
     {
