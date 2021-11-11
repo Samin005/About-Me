@@ -11,7 +11,7 @@ declare var $: any;
 export class BioComponent implements OnInit {
 
   bio = 'Hi there, my name is Samin Azhan.' +
-    ' I\'m a lecturer in the Computer Science and Engineering department of BRAC University, Bangladesh.' +
+    ' I\'m a lecturer in the Computer Science and Engineering department of BRAC University, Bangladesh who is currently on study leave to pursue a Master\'s degree at Carleton University, Canada.' +
     ' I usually teach courses related with Artificial Intelligence, Software Engineering and Data Science in my university.' +
     ' Previously I worked as a Full-stack Software Engineer in one of the largest private companies in the country.' +
     ' AI and Software Engineering are my primary interests, and I look forward in utilizing my skills, knowledge and experience in the field of research and practical applications.';

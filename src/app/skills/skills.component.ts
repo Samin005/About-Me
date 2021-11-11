@@ -10,26 +10,26 @@ export class SkillsComponent implements OnInit {
   skillsString = '● Python\n' +
     '● Django, DRF\n' +
     '● ORM, OOP\n' +
-    '● PyQt5\n' +
+    '● PyQt5, Selenium\n' +
     '● NumPy, Pandas\n' +
     '● scikit-learn, joblib\n' +
     '● Angular 2+\n' +
     '● Typescript, RxJS\n' +
-    '● Java, JPA\n' +
+    '● REST API\n' +
     '● Spring Boot\n' +
-    '● seaborn\n' +
-    '● Matplotlib\n' +
-    '● REST\n' +
+    '● Matplotlib, seaborn\n' +
+    '● JUnit, Cucumber\n' +
+    '● Java, JPA\n' +
     '● HTML, CSS\n' +
-    '● Javascript\n' +
-    '● jQuery\n' +
+    '● JSF, JDBC\n' +
+    '● JS, jQuery\n' +
     '● Bootstrap\n' +
-    '● JWT\n' +
+    '● JWT, OAuth\n' +
     '● Oracle, MySQL\n' +
     '● PostgreSQL\n' +
     '● Firebase\n' +
     '● Raspberry Pi\n' +
-    '● Arduino\n' +
+    '● TDD, BDD\n' +
     '● Git\n';
   skills = this.skillsString.split('\n');
 

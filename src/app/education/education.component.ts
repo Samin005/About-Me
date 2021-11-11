@@ -22,8 +22,8 @@ export class EducationComponent implements OnInit {
       institution: 'BRAC University, Bangladesh',
       details: '(<b>Minor:</b> English)\n' +
         '<span class="text-decoration-underline">Thesis Title:</span> Using Machine Learning for Lie Detection: Classification of Human Visual Morphology',
-      result: 'CGPA: 3.87 <div>(WES ICAP course-by-course Evaluated: 3.92)</div>',
-      scale: '(out of 4.00)'
+      result: 'CGPA: 3.92',
+      scale: 'out of 4.00 <div>(WES ICAP course-by-course Evaluated)</div>'
     },
     {
       timeline: '2012-2013',
@@ -31,7 +31,7 @@ export class EducationComponent implements OnInit {
       institution: 'Dhaka College, Bangladesh',
       details: '',
       result: 'GPA: 5.00',
-      scale: '(out of 5.00)'
+      scale: 'out of 5.00'
     },
     {
       timeline: '2010-2011',
@@ -39,7 +39,7 @@ export class EducationComponent implements OnInit {
       institution: 'Government Laboratory High School, Bangladesh',
       details: '',
       result: 'GPA: 5.00',
-      scale: '(out of 5.00)'
+      scale: 'out of 5.00'
     }
     // , {timeline: '', degree: '', institution: '', details: '', result: '', scale: ''}
   ];

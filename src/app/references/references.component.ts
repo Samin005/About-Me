@@ -52,6 +52,17 @@ export class ReferencesComponent implements OnInit {
       showViewButton: true,
       url: 'https://www.bracu.ac.bd/about/people/sadia-hamid-kazi'
     },
+    {
+      name: 'Dr. Jean-Pierre Corriveau',
+      info: 'Associate Professor\n' +
+        'School of Computer Science,\n' +
+        'Carleton University\n' +
+        '+1613-520-2600\n' +
+        'jeanpier@scs.carleton.ca',
+      img: 'assets/img/references/jean-pierre.png',
+      showViewButton: true,
+      url: 'https://carleton.ca/scs/people/jean-pierre-corriveau/'
+    },
     // {name: '', info: '', img: '', showViewButton: false, url: ''},
   ];
 

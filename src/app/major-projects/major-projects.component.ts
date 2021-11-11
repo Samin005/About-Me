@@ -9,14 +9,6 @@ export class MajorProjectsComponent implements OnInit {
 
   majorProjects = [
     {
-      title: 'Lie Detection by Facial Expression — (Python, dlib, OpenCV)',
-      details: 'Detects the face and 68 facial landmarks in both real-time and in images, and calculates\n' +
-        'and records the changes in every 10 milliseconds. This data is later analyzed to\n' +
-        'predict if a person was telling the truth or lying.\n',
-      showViewButton: true,
-      url: 'https://github.com/Samin005/Lie-Detection-Using-Facial-Landmarks'
-    },
-    {
       title: 'E-commerce & ERP Solution — (Angular, jQuery, Cloud Firestore)',
       details: 'An online store and back-office software solution created using Angular 7, jQuery, RxJs and\n' +
         'multiple javascript libraries such as (chart.js, datatables.net, pdfmake,sweetalert2\n' +
@@ -27,7 +19,7 @@ export class MajorProjectsComponent implements OnInit {
       url: 'https://samin005.github.io/Store-AF'
     },
     {
-      title: 'Tic Tac Toe (AI) — (Angular, Django)',
+      title: 'AI-based Tic Tac Toe Game — (Angular, Django)',
       details: 'An AI-based tic-tac-toe game where the AI makes the best possible move by using the Minimax Alpha Beta Pruning algorithm.' +
         ' The frontend of the app is created with Angular and backend is created using Django (python). The AI sits in the backend and there is a REST service that makes all the communication possible.' +
         ' The app also has Google sign-in options with proper JWT authentication. After signing in with a Google account, the user is able to see the leaderboard and check current rankings.',
@@ -35,10 +27,24 @@ export class MajorProjectsComponent implements OnInit {
       url: 'https://samin005.github.io/Tic-Tac-Toe-AI/'
     },
     {
+      title: 'Machine Learning for Lie Detection — (Python, dlib, OpenCV)',
+      details: 'Detects the face and 68 facial landmarks in both real-time and in images, and calculates\n' +
+        'and records the changes in every 10 milliseconds. This data is later analyzed to\n' +
+        'predict if a person was telling the truth or lying.\n',
+      showViewButton: true,
+      url: 'https://github.com/Samin005/Lie-Detection-Using-Facial-Landmarks'
+    },
+    {
       title: 'Social Account JWT Authentication and Authorization — (Angular, Django)',
       details: 'An application that implements proper JWT authentication and role-based user management system with customizable permissions and data validation. This Frontend is created using Angular which connects with a Python Django backend using a REST API and an SQL database.',
       showViewButton: true,
       url: 'https://github.com/Samin005/Angular-Django-JWT-Frontend'
+    },
+    {
+      title: 'Rummikub — (Angular, Spring Boot, JUnit, Cucumber)',
+      details: 'A fully networked Rummikub game created with Spring Boot and Angular. The development process followed both TDD and BDD in which JUnit assertions and Cucumber scenarios were used to thoroughly test the application and create Test-suites. The game allows multiple players and real-time sync between cross-platform devices.',
+      showViewButton: false,
+      url: ''
     },
     {
       title: 'Car Repair Appointment Service (HTML, CSS, Javascript, PHP)',
@@ -97,10 +103,10 @@ export class MajorProjectsComponent implements OnInit {
       url: 'https://github.com/Samin005/Expense-Track'
     },
     {
-      title: 'Jatra Backoffice Development — (Javascript, JSF, Oracle)',
+      title: 'Back-office Software Development — (Javascript, JSF, Oracle)',
       details: 'An accounting software for traveling agencies to keep track of their ticketing, invoicing,\n' +
-        'package and VISA business. It is created with Java’s JSF framework. Uses\n' +
-        'Javascript, Bootstrap and jQuery for front-end and an Oracle database.',
+        'package and VISA business. Created with Java’s JSF framework. Uses\n' +
+        'Javascript, Bootstrap and jQuery for the front-end, Jasper Reports and an Oracle database.',
       showViewButton: false,
       url: ''
     },
