@@ -10,7 +10,7 @@ export class MajorProjectsComponent implements OnInit {
   majorProjects = [
     {
       title: 'E-commerce & ERP Solution — (Angular, jQuery, Cloud Firestore)',
-      details: 'An online store and back-office software solution created using Angular 7, jQuery, RxJs and\n' +
+      details: 'An online store and back-office software solution created using Angular, jQuery, RxJs and\n' +
         'multiple javascript libraries such as (chart.js, datatables.net, pdfmake,sweetalert2\n' +
         'etc.) connected with a NoSQL Cloud Firestore back-end. This software includes\n' +
         'social sign-in, add to cart functionalities, profit-loss calculation, role-based user\n' +
