@@ -27,4 +27,5 @@ jobs:
     - name: Deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ github.token }}
       run: ng deploy --no-silent --base-href=/About-Me/
