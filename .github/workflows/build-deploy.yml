@@ -19,10 +19,10 @@ jobs:
         node-version: 14.x
         cache: 'npm'
     - name: Install Angular CLI
-      run: npm install -g @angular/cli
+      run: npm install -g @angular/cli@11.2.13
     - name: npm install CI
       run: npm ci
     - name: Add Angular Cli ghpages
       run: ng add angular-cli-ghpages
     - name: Deploy
-      run: ng deploy --base-href=/About-Me/
+      run: ng deploy --no-silent --base-href=/About-Me/
