@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Using npm
       uses: actions/setup-node@v2
       with:
@@ -27,4 +25,6 @@ jobs:
     - name: Add Angular Cli ghpages
       run: ng add angular-cli-ghpages
     - name: Deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: ng deploy --no-silent --base-href=/About-Me/
