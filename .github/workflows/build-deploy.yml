@@ -29,4 +29,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GH_TOKEN: ${{ github.token }}
-      run: ng deploy --base-href=/About-Me/ --name="Samin005" --email=samin005.bracu@gmail.com
+      run: ng deploy --base-href=/About-Me/ --name=${{ secrets.NAME }} --email=${{ secrets.EMAIL }}
