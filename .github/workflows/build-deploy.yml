@@ -5,6 +5,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,4 +26,7 @@ jobs:
     - name: Add Angular Cli ghpages
       run: ng add angular-cli-ghpages
     - name: Deploy
-      run: ng deploy --no-silent --base-href=/About-Me/ --name="Samin005" --email=samin005.bracu@gmail.com
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ github.token }}
+      run: ng deploy --base-href=/About-Me/ --name="Samin005" --email=samin005.bracu@gmail.com
