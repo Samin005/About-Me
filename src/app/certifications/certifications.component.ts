@@ -15,6 +15,12 @@ export class CertificationsComponent implements OnInit {
       url: 'https://www.kaggle.com/learn/certification/saminazhan/intermediate-machine-learning'
     },
     {
+      title: 'HackerRank certified Problem Solver',
+      img: 'assets/img/certifications/hackerrank-problem-solver-basic.png',
+      showViewButton: true,
+      url: 'https://www.hackerrank.com/certificates/0758de5cdc48'
+    },
+    {
       title: 'Kaggle certified Intro to Machine Learning',
       img: 'assets/img/certifications/Samin%20Azhan%20-%20Intro%20to%20Machine%20Learning.png',
       showViewButton: true,
