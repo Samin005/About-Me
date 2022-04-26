@@ -9,6 +9,12 @@ export class CertificationsComponent implements OnInit {
 
   certifications = [
     {
+      title: 'Google certified Google Analytics Course',
+      img: 'assets/img/certifications/Google-Analytics-Course-Certificate.jpg',
+      showViewButton: true,
+      url: 'https://analytics.google.com/analytics/academy/certificate/k0xz_ojsSGS-EtPV5fH0jw'
+    },
+    {
       title: 'Kaggle certified Intermediate Machine Learning',
       img: 'assets/img/certifications/Samin%20Azhan%20-%20Intermediate%20Machine%20Learning.png',
       showViewButton: true,

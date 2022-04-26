@@ -35,6 +35,12 @@ export class MajorProjectsComponent implements OnInit {
       url: 'https://github.com/Samin005/Lie-Detection-Using-Facial-Landmarks'
     },
     {
+      title: 'Merchant Portal — (Flutter, ASP.NET, MongoDB, AWS)',
+      details: 'A cross-platform merchant portal created with Flutter, ASP.NET and MongoDB which can run on any device, where sellers can add/update/delete category and items, and the customers can view, like/dislike, comment on items, add to shopping cart, complete checkout and view order history. Hosted in AWS with CI/CD using Docker and GitHub Actions.',
+      showViewButton: true,
+      url: 'http://merchant-portal-flutter.s3-website.ca-central-1.amazonaws.com/#/'
+    },
+    {
       title: 'Social Account JWT Authentication and Authorization — (Angular, Django)',
       details: 'An application that implements proper JWT authentication and role-based user management system with customizable permissions and data validation. This Frontend is created using Angular which connects with a Python Django backend using a REST API and an SQL database.',
       showViewButton: true,

@@ -9,8 +9,16 @@ export class WorkExperienceComponent implements OnInit {
 
   workExperience = [
     {
+      timeline: 'January 2022 - Present',
+      title: 'CARLETON UNIVERSITY — Graduate Research and Teaching Assistant',
+      details: '● Evaluate students based on code/project\n' +
+        '● Create tutorials and provide consultation\n' +
+        '● Review research papers\n' +
+        '● Analyze data and come up with insightful conclusions'
+    },
+    {
       timeline: 'January 2020 - Present',
-      title: 'BRAC UNIVERSITY — Lecturer',
+      title: 'BRAC UNIVERSITY — Lecturer (on study leave)',
       details: '● Prepare and deliver lectures, tutorials and online resources\n' +
         '● Redesign courses and curriculums to match current demands\n' +
         '● Guide and assist students with research, lab works and projects\n' +
