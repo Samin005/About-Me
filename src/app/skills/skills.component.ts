@@ -7,30 +7,30 @@ import {Component, OnInit} from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  skillsString = '● Python\n' +
-    '● Django, DRF\n' +
+  skillsString = '● Java, JPA\n' +
+    '● Spring Boot\n' +
+    '● REST API\n' +
+    '● JSF, JDBC, Allure\n' +
+    '● JUnit, Cucumber\n' +
     '● ORM, OOP\n' +
-    '● PyQt5, Selenium\n' +
-    '● NumPy, Pandas\n' +
-    '● scikit-learn, joblib\n' +
     '● Angular 2+\n' +
     '● Typescript, RxJS\n' +
-    '● REST API\n' +
-    '● Spring Boot\n' +
-    '● Matplotlib, seaborn\n' +
-    '● JUnit, Cucumber\n' +
-    '● Java, JPA\n' +
-    '● HTML, CSS\n' +
-    '● JSF, JDBC\n' +
-    '● JS, jQuery\n' +
-    '● Bootstrap\n' +
+    '● HTML, CSS, JS\n' +
+    '● Bootstrap, jQuery\n' +
+    '● Docker, AWS\n' +
     '● JWT, OAuth\n' +
+    '● Python\n' +
+    '● Django, DRF\n' +
+    '● NumPy, Pandas\n' +
+    '● scikit-learn, joblib\n' +
+    '● Matplotlib, seaborn\n' +
+    '● PyQt5, Selenium\n' +
     '● Oracle, MySQL\n' +
     '● PostgreSQL\n' +
     '● Firebase\n' +
-    '● Raspberry Pi\n' +
+    '● MongoDB\n' +
     '● TDD, BDD\n' +
-    '● Git\n';
+    '● Git, CI/CD';
   skills = this.skillsString.split('\n');
 
   constructor() {

@@ -9,6 +9,12 @@ export class WorkExperienceComponent implements OnInit {
 
   workExperience = [
     {
+      timeline: 'May 2022 - Present',
+      title: 'ELLISDON — Software Engineer (CO-OP)',
+      details: '● Analyze back-end REST API services to create and maintain Automation Test Suites using Spring Boot, REST-assured, TestRail and Allure reporting in Agile development.\n' +
+        '● Significant role starting from client requirements analysis, design feedback, coding, testing, debugging, integration and implementation.'
+    },
+    {
       timeline: 'January 2022 - Present',
       title: 'CARLETON UNIVERSITY — Graduate Research and Teaching Assistant',
       details: '● Evaluate students based on code/project\n' +
