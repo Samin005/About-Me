@@ -16,7 +16,7 @@ export class MajorProjectsComponent implements OnInit {
         'social sign-in, add to cart functionalities, profit-loss calculation, role-based user\n' +
         'authentication, Firebase Storage, invoice/financial report generation etc.',
       showViewButton: true,
-      url: 'https://samin005.github.io/Store-AF'
+      url: 'https://samin005.github.io/Store-AF/Demo%20Comp/back-office'
     },
     {
       title: 'AI-based Tic Tac Toe Game — (Angular, Django)',
@@ -49,8 +49,8 @@ export class MajorProjectsComponent implements OnInit {
     {
       title: 'Rummikub — (Angular, Spring Boot, JUnit, Cucumber)',
       details: 'A fully networked Rummikub game created with Spring Boot and Angular. The development process followed both TDD and BDD in which JUnit assertions and Cucumber scenarios were used to thoroughly test the application and create Test-suites. The game allows multiple players and real-time sync between cross-platform devices.',
-      showViewButton: false,
-      url: ''
+      showViewButton: true,
+      url: 'https://github.com/Samin005/Rummikub-COMP5104'
     },
     {
       title: 'Car Repair Appointment Service (HTML, CSS, Javascript, PHP)',
