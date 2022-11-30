@@ -26,6 +26,9 @@
               "src/favicon.ico",
               "src/assets"
             ],
+            "allowedCommonJsDependencies": [
+              "typed.js"
+            ],
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -34,7 +37,7 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
-              "node_modules/tsparticles/dist/tsparticles.min.js"
+              "node_modules/tsparticles/tsparticles.bundle.min.js"
             ]
           },
           "configurations": {

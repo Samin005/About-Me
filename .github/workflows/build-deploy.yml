@@ -17,10 +17,10 @@ jobs:
     - name: Using npm
       uses: actions/setup-node@v2
       with:
-        node-version: 14.x
+        node-version: 18.12.1
         cache: 'npm'
     - name: Install Angular CLI
-      run: npm install -g @angular/cli@11.2.13
+      run: npm install -g @angular/cli@15.0.1
     - name: npm install CI
       run: npm ci
     - name: Add Angular Cli ghpages

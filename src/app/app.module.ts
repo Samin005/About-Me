@@ -14,6 +14,8 @@ import { AwardsComponent } from './awards/awards.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { PublicationsComponent } from './publications/publications.component';
 import { ReferencesComponent } from './references/references.component';
+import {NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule} from 'ngx-google-analytics';
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { ReferencesComponent } from './references/references.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxGoogleAnalyticsModule.forRoot(environment.google_analytics_id),
+    NgxGoogleAnalyticsRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
