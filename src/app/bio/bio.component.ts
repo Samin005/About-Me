@@ -18,7 +18,7 @@ export class BioComponent implements OnInit {
     ' I also worked as a full-time University Lecturer and taught courses related with Artificial Intelligence, Software Engineering and Data Science.' +
     ' Software Engineering and Machine Learning are my primary interests, and I look forward in utilizing my skills, knowledge and experience in the field of research and practical applications.';
   typedOptions = {
-    strings: [this.bio.split('.').join('.^1000')],
+    strings: [this.bio.split('. ').join('.^1000 ')],
     typeSpeed: 20,
     backSpeed: 5,
     backDelay: 300000,
