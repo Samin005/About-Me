@@ -9,12 +9,12 @@ export class EducationComponent implements OnInit {
 
   education = [
     {
-      timeline: '2021-Present',
+      timeline: '2021-2023',
       degree: 'MASTER OF COMPUTER SCIENCE',
       institution: 'Carleton University, Canada',
-      details: '',
-      result: '(In Progress)',
-      scale: ''
+      details: '<span class="text-decoration-underline">Thesis Title:</span> Automated Generation of Executable Cucumber Scenarios from an RDBMS Schema',
+      result: 'CGPA 11.40',
+      scale: 'out of 12.00 <div>(Highest Distinction)</div>'
     },
     {
       timeline: '2014-2018',
