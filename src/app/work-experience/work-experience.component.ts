@@ -23,8 +23,8 @@ export class WorkExperienceComponent implements OnInit {
         '● Analyze data and come up with insightful conclusions'
     },
     {
-      timeline: 'January 2020 - Present',
-      title: 'BRAC UNIVERSITY — Lecturer (on study leave)',
+      timeline: 'January 2020 - August 2023',
+      title: 'BRAC UNIVERSITY — Lecturer',
       details: '● Prepare and deliver lectures, tutorials and online resources\n' +
         '● Redesign courses and curriculums to match current demands\n' +
         '● Guide and assist students with research, lab works and projects\n' +
