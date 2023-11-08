@@ -9,16 +9,6 @@ export class MajorProjectsComponent implements OnInit {
 
   majorProjects = [
     {
-      title: 'E-commerce & ERP Solution — (Angular, jQuery, Cloud Firestore)',
-      details: 'An online store and back-office software solution created using Angular, jQuery, RxJs and\n' +
-        'multiple javascript libraries such as (chart.js, datatables.net, pdfmake,sweetalert2\n' +
-        'etc.) connected with a NoSQL Cloud Firestore back-end. This software includes\n' +
-        'social sign-in, add to cart functionalities, profit-loss calculation, role-based user\n' +
-        'authentication, Firebase Storage, invoice/financial report generation etc.',
-      showViewButton: true,
-      url: 'https://samin005.github.io/Store-AF/Demo%20Comp/back-office'
-    },
-    {
       title: 'AI-based Tic Tac Toe Game — (Angular, Django)',
       details: 'An AI-based tic-tac-toe game where the AI makes the best possible move by using the Minimax Alpha Beta Pruning algorithm.' +
         ' The frontend of the app is created with Angular and backend is created using Django (python). The AI sits in the backend and there is a REST service that makes all the communication possible.' +
@@ -35,10 +25,26 @@ export class MajorProjectsComponent implements OnInit {
       url: 'https://github.com/Samin005/Lie-Detection-Using-Facial-Landmarks'
     },
     {
+      title: 'E-commerce & ERP Solution — (Angular, jQuery, Cloud Firestore)',
+      details: 'An online store and back-office software solution created using Angular, jQuery, RxJs and\n' +
+        'multiple javascript libraries such as (chart.js, datatables.net, pdfmake,sweetalert2\n' +
+        'etc.) connected with a NoSQL Cloud Firestore back-end. This software includes\n' +
+        'social sign-in, add to cart functionalities, profit-loss calculation, role-based user\n' +
+        'authentication, Firebase Storage, invoice/financial report generation etc.',
+      showViewButton: true,
+      url: 'https://samin005.github.io/Store-AF/Demo%20Comp/back-office'
+    },
+    {
       title: 'Merchant Portal — (Flutter, ASP.NET, MongoDB, AWS)',
       details: 'A cross-platform merchant portal created with Flutter, ASP.NET and MongoDB which can run on any device, where sellers can add/update/delete category and items, and the customers can view, like/dislike, comment on items, add to shopping cart, complete checkout and view order history. Hosted in AWS with CI/CD using Docker and GitHub Actions.',
       showViewButton: true,
       url: 'http://merchant-portal-flutter.s3-website.ca-central-1.amazonaws.com/#/'
+    },
+    {
+      title: 'Blackjack Game — (Spring Boot, Sockets, JUnit)',
+      details: 'A console-based Blackjack game including 2 players, an AI and a Dealer. Created with Java Sockets to demonstrate a server-client application.',
+      showViewButton: true,
+      url: 'https://github.com/Samin005/BlackJack-Java-Sockets'
     },
     {
       title: 'Social Account JWT Authentication and Authorization — (Angular, Django)',

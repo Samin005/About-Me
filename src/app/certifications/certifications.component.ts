@@ -9,6 +9,18 @@ export class CertificationsComponent implements OnInit {
 
   certifications = [
     {
+      title: 'Udemy certified Principles of Secure Coding',
+      img: 'assets/img/certifications/udemy-principles-of-secure -coding.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/1VoLyTAaMHPsaTya5nYzVZn0FZJw7moC0/view?usp=sharing'
+    },
+    {
+      title: 'Udemy certified Secure Product Lifecycle 101 Course',
+      img: 'assets/img/certifications/udemy-secure-product-lifecycle-101.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/18tEV2rdNZLwX_Xc7IzuvKYabi4uuNMvK/view?usp=sharing'
+    },
+    {
       title: 'Google certified Google Analytics Course',
       img: 'assets/img/certifications/Google-Analytics-Course-Certificate.jpg',
       showViewButton: true,
