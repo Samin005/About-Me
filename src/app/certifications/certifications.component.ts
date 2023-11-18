@@ -9,8 +9,14 @@ export class CertificationsComponent implements OnInit {
 
   certifications = [
     {
+      title: 'Udemy certified Spring Security Fundamentals (OAuth, JWT, CSRF and more)',
+      img: 'assets/img/certifications/Udemy-Spring Security Fundamentals.jpg',
+      showViewButton: true,
+      url: 'https://drive.google.com/file/d/1F4etmtST3VrXCLIAcXtN0HMJdovZhPVj/view?usp=sharing'
+    },
+    {
       title: 'Udemy certified Principles of Secure Coding',
-      img: 'assets/img/certifications/udemy-principles-of-secure -coding.jpg',
+      img: 'assets/img/certifications/udemy-principles-of-secure-coding.jpg',
       showViewButton: true,
       url: 'https://drive.google.com/file/d/1VoLyTAaMHPsaTya5nYzVZn0FZJw7moC0/view?usp=sharing'
     },
